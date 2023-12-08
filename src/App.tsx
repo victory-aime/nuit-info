@@ -5,6 +5,7 @@ import HeroSection from "./components/Masection";
 import UneAutreSection from "./components/Uneautresection";
 import Lasectionencore from "./components/Lasectionencore";
 import Footer, { NewsletterFooter } from "./components/Newsletterfooter";
+import AboutUs from "./components/AboutUs";
 //import "./index.css"
 
 function App() {
@@ -27,9 +28,10 @@ function App() {
           <Lasectionencore />
         </Center>
         <Flex>
-          <Footer />
+          <AboutUs />
         </Flex>
       </Flex>
+      <Footer />
     </Box>
   );
 }

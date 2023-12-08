@@ -12,6 +12,7 @@ import {
   useColorModeValue,
   useDisclosure,
   useColorMode,
+  Image,
 } from "@chakra-ui/react";
 import {
   HamburgerIcon,
@@ -26,6 +27,7 @@ import Quizz from "./Quizz";
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onToggle } = useDisclosure();
+
   return (
     <Box>
       <Flex
@@ -40,18 +42,18 @@ export default function Navbar() {
       >
         <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
           <Link to={"/"} style={{ marginRight: "10px" }}>
-            <Logo color={useColorModeValue("gray.700", "white")} />
+            <Image
+              src="src/assets/nuit.png"
+              color={useColorModeValue("gray.700", "white")}
+              w={50}
+              h={50}
+            />
           </Link>
         </Flex>
-        <Stack spacing={4} align="center" display={{ md: "none" }} mt={2}>
-          {/* Add more links here */}
-          <Button as={Link} to={"/link1"} variant="ghost">
-            Link 1
-          </Button>
-          <Button as={Link} to={"/link2"} variant="ghost">
-            Link 2
-          </Button>
-        </Stack>
+        {/* Add more links here */}
+        <Button as={Link} to={"/quizz"} variant="ghost">
+          Quizz
+        </Button>
 
         <IconButton
           display={{ base: "inline-flex", md: "none" }}

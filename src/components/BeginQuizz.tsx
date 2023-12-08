@@ -50,7 +50,7 @@ function BeginQuizz() {
     if (currentQuestionIndex === quizData.questions.length - 1) {
       setIsModalOpen(false);
       showScore();
-      navigate("/nouvelle-page");
+      navigate("/quizz");
     } else {
       // Move to the next question first
       moveToNextQuestion(true); // Assuming the user answered true, adjust as needed
