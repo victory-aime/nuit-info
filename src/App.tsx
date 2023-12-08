@@ -4,6 +4,7 @@ import Masection from "./components/Masection.tsx";
 import UneAutreSection from "./components/Uneautresection.tsx";
 import Sectiongauche from "./components/Sectiongauche.tsx";
 import Lasectionencore from "./components/Lasectionencore.tsx";
+import NewsletterFooter from "./components/Newsletterfooter.tsx";
 
 function App() {
     return (
@@ -11,7 +12,7 @@ function App() {
             <Masection />
             <UneAutreSection/>
             <Lasectionencore/>
-
+            <NewsletterFooter/>
 
 
         </>
