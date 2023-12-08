@@ -1,0 +1,52 @@
+{
+  "title": "Quiz Title",
+  "questions": [
+    {
+      "id": 1,
+      "title": "Question 1",
+      "description": "Nuit de l'info",
+      "options": [
+        { "text": "VRAI", "isCorrect": true },
+        { "text": "FAUX", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Question 2",
+      "description": "Description of Question 2",
+      "options": [
+        { "text": "FAUX", "isCorrect": false },
+        { "text": "VRAI", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Question 3",
+      "description": "Description of Question 3",
+      "options": [
+        { "text": "FAUX", "isCorrect": false },
+
+        { "text": "VRAI", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Question 4",
+      "description": "Description of Question 4",
+      "options": [
+        { "text": "VRAI", "isCorrect": true },
+
+        { "text": "VRAI", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Question 5",
+      "description": "Description of Question 5",
+      "options": [
+        { "text": "VRAI", "isCorrect": false },
+        { "text": "FAUX", "isCorrect": true }
+      ]
+    }
+  ]
+}
