@@ -6,8 +6,8 @@
       "title": "Question 1",
       "description": "Nuit de l'info",
       "options": [
-        { "text": "VRAI", "isCorrect": true },
-        { "text": "FAUX", "isCorrect": false }
+        { "text": "VRAI", "isCorrect": false },
+        { "text": "FAUX", "isCorrect": true }
       ]
     },
     {
@@ -15,8 +15,8 @@
       "title": "Question 2",
       "description": "Description of Question 2",
       "options": [
-        { "text": "FAUX", "isCorrect": false },
-        { "text": "VRAI", "isCorrect": true }
+        { "text": "FAUX", "isCorrect": true },
+        { "text": "VRAI", "isCorrect": false }
       ]
     },
     {
@@ -24,9 +24,9 @@
       "title": "Question 3",
       "description": "Description of Question 3",
       "options": [
-        { "text": "FAUX", "isCorrect": false },
+        { "text": "FAUX", "isCorrect": true },
 
-        { "text": "VRAI", "isCorrect": true }
+        { "text": "VRAI", "isCorrect": false }
       ]
     },
     {

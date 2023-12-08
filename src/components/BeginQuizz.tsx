@@ -121,20 +121,16 @@ function BeginQuizz() {
               <ModalBody alignItems="center" justifyContent="center">
                 <Text>{currentQuestion.description}</Text>
                 <Center alignItems="center" p={25} mt={25}>
-                  <Button
-                    onClick={() => handleAnswer(true)}
-                    mx={2}
-                    colorScheme="green"
-                  >
-                    True
-                  </Button>
-                  <Button
-                    onClick={() => handleAnswer(false)}
-                    mx={2}
-                    colorScheme="red"
-                  >
-                    False
-                  </Button>
+                  {currentQuestion.options.map((option, index) => (
+                    <Button
+                      key={index}
+                      onClick={() => handleAnswer(option.isCorrect)}
+                      mr={4}
+                      bg="blue.400"
+                    >
+                      {option.text}
+                    </Button>
+                  ))}
                 </Center>
               </ModalBody>
             </ModalContent>
