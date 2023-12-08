@@ -16,21 +16,8 @@ const data = [
   {
     imageURL:
       "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=4600&q=80",
-    name: "Solution individuelle",
-    id: 1,
-  },
-
-  {
-    imageURL:
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=4600&q=80",
-    name: "Solution Technologique",
-    id: 2,
-  },
-  {
-    imageURL:
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=4600&q=80",
     name: "Wayfarer Classic",
-    id: 3,
+    id: 1,
   },
 ];
 
@@ -105,7 +92,7 @@ function QuizzList() {
       <Heading as="h2" size="xl" mb={4} textAlign="center" mt={10}>
         Select Quizz
       </Heading>
-      <SimpleGrid columns={[1, 2, 3]} spacing={4} p={4}>
+      <SimpleGrid columns={[1]} spacing={4} p={4}>
         {data.map((product, index) => (
           <QuizzSimple key={index} product={product} />
         ))}
